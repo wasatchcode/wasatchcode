@@ -1,0 +1,32 @@
+.purple-bg {
+	background: #34495e;
+	height: 910px;
+}
+
+.caption-heading {
+	padding-bottom: 50px;
+}
+
+#picture-dustin {
+	margin-left: 35%;
+	padding-top: 50px;
+}
+
+#picture-q {
+	margin-right: 35%;
+	padding-top: 50px;
+
+}
+
+div.col-md-12 p {
+	padding-top: 35px;
+	margin-left: 65px;
+	font-size: 24px;
+	color: white;
+	
+}
+
+#about-us {
+	width: 235px;
+	border-bottom: 3px solid orange;
+}
