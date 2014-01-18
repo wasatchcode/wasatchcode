@@ -1,32 +1,33 @@
-.purple-bg {
-	background: #34495e;
-	height: 910px;
+body{
+	font-family: 'Raleway', Helvetica, Arial;
+	font-size: 16px;
+	color: #666666;
+	font-weight: 400;
+	letter-spacing: 1px;
 }
 
-.caption-heading {
-	padding-bottom: 50px;
+p{
+	line-height: 30px;
+	font-weight: 400px;
 }
 
-#picture-dustin {
-	margin-left: 35%;
-	padding-top: 50px;
+h1, h2, h3, h4, h5, h6{
+	color: #333333;
+	text-transform: uppercase;
+	font-family: 'Raleway', Helvetica, Arial;
+	font-weight: 700;
 }
 
-#picture-q {
-	margin-right: 35%;
-	padding-top: 50px;
-
+a{
+	color: #3498db;
+	text-decoration: none;
 }
 
-div.col-md-12 p {
-	padding-top: 35px;
-	margin-left: 65px;
-	font-size: 24px;
-	color: white;
-	
+a:hover, a:focus{
+	color: #308ac6;
 }
 
-#about-us {
-	width: 235px;
-	border-bottom: 3px solid orange;
+.col-centered{
+    float: none;
+    margin: 0 auto;
 }
