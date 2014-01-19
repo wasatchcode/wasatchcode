@@ -8,7 +8,7 @@ body{
 
 p{
 	line-height: 30px;
-	font-weight: 400px;
+	font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -31,3 +31,152 @@ a:hover, a:focus{
     float: none;
     margin: 0 auto;
 }
+
+/* end */
+
+/* logo */
+
+.navbar-brand{
+	width: 397px;
+	height: 24px;
+	padding: 0;
+	margin: 0;
+	background: url(img/brand.png) no-repeat;
+	text-indent: -9999px;	
+}
+
+/* end */ 
+
+/* navigation */
+
+.navbar-default{
+	background: none;
+	border: none;
+	padding: 0 0 60px 0;
+}
+
+.navbar-default .navbar-nav>li>a{
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #95a5a6;
+	padding: 11px 0;
+	text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	color: #fff;
+	background: none;
+	outline: 0;
+}
+
+.navbar-toggle{
+	border: none;
+	margin-top: 0;
+	margin-right: 0;
+	width: 32px;
+	height: 32px;
+	text-align: center;
+	color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+	background: none;
+	outline: none;
+}
+
+.navbar-default .navbar-collapse{
+	border: none;
+	background: rgba(255,255,255,0.05);
+	border-radius: 2px;
+	box-shadow: none;
+}
+
+.jumbotron{
+	background: #34495e url(img/banner-bg.png) no-repeat;
+	background-size: cover;
+	max-height: 800px;
+	padding: 60px 0;
+	margin-top: 0;
+}
+
+.jumbotron h1{
+	color: #fff;
+	font-weight: 300;
+	margin: 0 0 60px 0;
+}
+
+.jumbotron h1 span{
+	color: #aeff58;
+	font-weight: 600;
+}
+
+.jumbotron h3{
+	color: #fff;
+	font-size: 20px;	
+	line-height: 30px;
+	font-weight: 400px;
+	text-transform: none;
+}
+
+.services{
+	padding: 60px 0;
+	border-bottom: 1px solid #e3e3e3;
+}
+
+.services h4{
+	margin-bottom: 30px;
+}
+
+.services p{
+	margin-bottom: 40px;
+}
+
+.services .more{
+	text-transform: uppercase;
+	font-weight: 600px;
+	font-size: 13px;
+}
+
+.services-web, .services-dev{
+	margin-bottom: 60px;
+}
+
+.icon-sprite{
+	width: 64px;
+	height: 64px;
+	display: inline-block;
+	background: url(img/sprite.png) no-repeat;
+	background-position: left top;
+	margin-bottom: 20px;
+}
+
+.icon-sprite.sprite-web{
+	background-position: left;
+}
+
+.icon-sprite.sprite-dev{
+	background-position: -64px;
+}
+
+.icon-sprite.sprite-sup{
+	background-position: -128px;
+}
+
+/* end */
+
+/* our work */
+.heading{
+	padding: 60px 0;
+}
+
+.heading h1{
+	background: url(img/heading.png) no-repeat;
+	background-position: center bottom;
+	padding: 0 0 20px 0;
+}
+
