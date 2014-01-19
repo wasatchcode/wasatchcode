@@ -45,6 +45,18 @@ a:hover, a:focus{
 	text-indent: -9999px;	
 }
 
+.navbar-nav {
+	float: right;
+}
+
+.navbar-nav>li {
+	margin-right: 25px;
+}
+
+.navbar-header {
+	padding: 10px;
+}
+
 /* end */ 
 
 /* navigation */
@@ -53,6 +65,8 @@ a:hover, a:focus{
 	background: none;
 	border: none;
 	padding: 0 0 60px 0;
+	margin-top: -60px;
+	height: 120px;
 }
 
 .navbar-default .navbar-nav>li>a{
@@ -60,12 +74,14 @@ a:hover, a:focus{
 	font-weight: 600;
 	text-transform: uppercase;
 	color: #95a5a6;
-	padding: 11px 0;
+	padding: 11px 0 3px 0;
 	text-align: center;
+
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
 	color: #fff;
+	border-bottom: 3px solid #aeff58;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
@@ -91,7 +107,7 @@ a:hover, a:focus{
 
 .navbar-default .navbar-collapse{
 	border: none;
-	background: rgba(255,255,255,0.05);
+	background: #34495e;
 	border-radius: 2px;
 	box-shadow: none;
 }
@@ -130,34 +146,39 @@ a:hover, a:focus{
 	letter-spacing: 4px;
 }
 
+/*#arrow-down {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+
+	border-top: 20px solid #aeff58;
+
+}*/
+
 /* end */ 
 
 /* services */
 
-.services{
-	padding: 60px 0;
-	border-bottom: 1px solid #e3e3e3;
+.web-services {
 	background: #ecf0f1;
+	min-height: 350px;
+	max-height: 600px;
+}
+p.services {
+	padding-top: 65px;
 }
 
-.services h4{
-	margin-bottom: 30px;
+.more {
+	color: #f58220;
 }
 
-.services p{
-	margin-bottom: 40px;
-}
-
-.services .more{
-	text-transform: uppercase;
-	font-weight: 700;
-	font-size: 13px;
-	color: #fa57ed;
-}
-
-
-.services-web, .services-dev{
-	margin-bottom: 60px;
+.home-services-list li {
+	width: 23%;
+	margin: 1.5%;
+	display: inline-block;
+	vertical-align: top;
 }
 
 .icon-sprite{
@@ -185,7 +206,7 @@ a:hover, a:focus{
 
 /* our work */
 .our-work{
-	padding: 60px 0;
+	padding: 20px 0;
 }
 
 .heading{
