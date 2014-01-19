@@ -119,13 +119,15 @@ a:hover, a:focus{
 	color: #fff;
 	font-size: 20px;	
 	line-height: 30px;
-	font-weight: 400px;
+	font-weight: 200;
 	text-transform: none;
+	letter-spacing: 4px;
 }
 
 .services{
 	padding: 60px 0;
 	border-bottom: 1px solid #e3e3e3;
+	background: #ecf0f1;
 }
 
 .services h4{
@@ -138,9 +140,11 @@ a:hover, a:focus{
 
 .services .more{
 	text-transform: uppercase;
-	font-weight: 600px;
+	font-weight: 700;
 	font-size: 13px;
+	color: #fa57ed;
 }
+
 
 .services-web, .services-dev{
 	margin-bottom: 60px;
@@ -177,6 +181,6 @@ a:hover, a:focus{
 .heading h1{
 	background: url(img/heading.png) no-repeat;
 	background-position: center bottom;
-	padding: 0 0 20px 0;
+	padding: 0 0 10px 0;
 }
 
