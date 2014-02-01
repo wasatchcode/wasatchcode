@@ -9,6 +9,7 @@ body{
 p{
 	line-height: 30px;
 	font-weight: 400;
+	text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -208,9 +209,83 @@ a:hover, a:focus{
 	padding: 0 0 10px 0;
 }
 
+/* end */
+
+/* about us */
+
 .about-us{
 	background: #34495e;
+	padding: 60px 0;
 }
+
+.heading{
+	padding: 60px 0;
+}
+
+#heading-about{
+	color: #ecf0f1;
+	border-bottom: 3px solid #ff00ff;
+	background-position: center bottom;
+	padding: 0 0 10px 0;
+}
+
+.bio{
+	color: #ecf0f1;
+	text-align: center;
+}
+
+#picture-dustin{
+	padding: 50px 100px;
+}
+
+#picture-q{
+	padding: 50px 100px;
+}
+
+/* end */
+
+/*contact */
+
+/* our work */
+.contact{
+	padding: 60px 0;
+}
+
+.heading{
+	padding: 60px 0;
+}
+
+.heading h1{
+	border-bottom: 3px solid #aeff58;
+	background-position: center bottom;
+	padding: 0 0 10px 0;
+}{
+	padding: 60px 0;
+}
+
+.heading{
+	padding: 60px 0;
+}
+
+.heading h1{
+	border-bottom: 3px solid #aeff58;
+	background-position: center bottom;
+	padding: 0 0 10px 0;
+}
+
+/* footer */
+
+footer{
+	padding: 60px 0;
+	background: #ecf0f1;
+}
+
+.copyright small{
+	color: #95a5a6;
+	font-size: 13px;
+}
+
+/* end */
 
 /* responsive part */
 
@@ -264,7 +339,7 @@ a:hover, a:focus{
 	.services .col-md-4{ padding-top: 60px; padding-bottom: 60px; }
 	.services-dev .col-md-4{ border-right: 1px solid #e3e3e3; border-left: 1px solid #e3e3e3; }
 	
-	.heading{ padding: 120px 0; }
+	.heading{ padding: 0 0 60px 0; }
 	
 	.caption-heading{ width: 100%; position: absolute; bottom: 0; padding: 0 30px 30px 30px; }
 	.caption-heading h4{ display: inline-block; float: left; }
